@@ -66,4 +66,4 @@ jobs:
          run: |
               cd "$ROM_CODENAME$"/out/target/product/$CODENAME
               curl -sL https://git.io/file-transfer | sh
-              ./transfer bit *$CODENAME*.zip    
+              ./transfer wet *$CODENAME*.zip    
