@@ -15,18 +15,18 @@ on:
     types: [started]
 
 env:
-  ROM_MANIFEST:
-  ROM_MANIFEST_BRANCH:  
-  ROM_CODENAME: 
-  CODENAME: 
-  BRAND:
-  CHIPSET:  
-  DT_LINK: 
-  DT_BRANCH:
-  VT_LINK:
-  VT_BRANCH: 
-  KERNEL_LINK: 
-  KERNEL_BRANCH: 
+  ROM_MANIFEST: https://github.com/Havoc-OS/android_manifest
+  ROM_MANIFEST_BRANCH: android_11
+  ROM_CODENAME: picasso
+  CODENAME: K305G
+  BRAND: Xiaomi
+  CHIPSET: SDM765
+  DT_LINK: https://github.com/zhuofan-16/rebase-device-xiaomi-picasso
+  DT_BRANCH: eleven
+  VT_LINK: https://github.com/zhuofan-16/vendor_xiaomi_picasso
+  VT_BRANCH: lineage-18.0
+  KERNEL_LINK: https://github.com/zhuofan-16/android_kernel_xiaomi_sm7250
+  KERNEL_BRANCH: lineage-17.1
   TZ: Asia/Kolkata
 
 jobs:
