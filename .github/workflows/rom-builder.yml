@@ -16,7 +16,7 @@ on:
 
 env:
   ROM_MANIFEST: https://github.com/Havoc-OS/android_manifest
-  ROM_MANIFEST_BRANCH: android_11
+  ROM_MANIFEST_BRANCH: eleven
   ROM_CODENAME: picasso
   CODENAME: K305G
   BRAND: Xiaomi
